@@ -26,9 +26,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener {
 	
-	
-	
-	
+	//g
 	EditText nickname, password;
 	TextView txt_new;
 	Button btn_login;

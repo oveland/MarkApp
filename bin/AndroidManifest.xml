@@ -29,6 +29,8 @@
         <activity 
             android:name="com.example.markapp.UserRegister"
             />
+        <activity android:name="com.example.markapp.UserMenu"
+            />
     </application>
     
     

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -33,15 +34,17 @@ public class UserRegister extends ActionBarActivity implements OnClickListener {
 	private ProgressDialog pDialog;
 	JSONObject json_rta;
 	String result;
+	int success = 0;
 	// JSON Node names
     private static final String MESSAGE = "message";
+    private static final String SUCCESS = "success";
     
     	
 	
 	JsonHttpRequest Json_Http_Request = new JsonHttpRequest();	
 	List<NameValuePair> params = new ArrayList<NameValuePair>();
-	public static final String URL_REGISTER = "http://markapp.esy.es/MarkApp/db_register.php";
-	//public static final String URL_REGISTER = "http://10.0.2.2/MarkApp/db_register.php";
+	//public static final String URL_REGISTER = "http://markapp.esy.es/MarkApp/db_register.php";
+	public static final String URL_REGISTER = "http://10.0.2.2/MarkApp/db_register.php";
 		
 	
 	
@@ -90,7 +93,7 @@ public class HTPPAsync extends AsyncTask<String, String, String> {
 	@Override
 	protected String doInBackground(String... args) {
 		//Se ejecuta la peticion Http y se recupera la tra en formato Json:
-		json_rta = Json_Http_Request.JsonHttpRequest(URL_REGISTER, "POST", params);
+		json_rta = Json_Http_Request.MarkApp_HttpRequest(URL_REGISTER, "POST", params);
 
         //Se muestra la rta json en el LogCat:
         Log.d("All Products: ", json_rta.toString());
@@ -102,15 +105,39 @@ public class HTPPAsync extends AsyncTask<String, String, String> {
         pDialog.dismiss();
         runOnUiThread(
         	new Runnable() {
-        		public void run() {            	
+        		public void run() {
         			try {
-        			result = json_rta.getString(MESSAGE);   
+        			result = json_rta.getString(MESSAGE);
+        			Toast.makeText(UserRegister.this, result, Toast.LENGTH_LONG ).show();
+        			success = json_rta.getInt(SUCCESS);  
+        			if(success == 1){
+        			
+        				runOnUiThread(
+        					new Runnable() {
+        		        		public void run() {        		        			
+        		        			MainActivity.users.setFirst_name(fname.getText().toString());
+        		        			MainActivity.users.setLast_name(lname.getText().toString());
+        		        			MainActivity.users.setNickname(nkname.getText().toString());
+        		        			MainActivity.users.setPassword(pass.getText().toString());
+        		        		
+        		        			MainActivity.nickname.setText("");
+        		        			MainActivity.password.setText("");
+        		        		}
+        		            }
+        					);
+        			
+        			Intent i = new Intent(getApplicationContext(), UserMenu.class);
+                    startActivity(i);
+                    finish();
+        			}
+        			
+        			
         			}
         			catch (JSONException e) {
         				e.printStackTrace();
         				result = "Error interno!";
         			}
-        	        Toast.makeText(UserRegister.this, result, Toast.LENGTH_LONG ).show();
+        	        
         		}
             }
         );

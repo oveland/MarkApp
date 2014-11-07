@@ -28,8 +28,10 @@ public class JsonHttpRequest {
 	static InputStream input_stream = null;
     static JSONObject jObj = null;
     static String json = "";
-
-    public JSONObject JsonHttpRequest(String url, String method, List<NameValuePair> params) {
+    
+    public  JsonHttpRequest() {}
+    
+    public JSONObject MarkApp_HttpRequest(String url, String method, List<NameValuePair> params) {
  
 	 DefaultHttpClient httpClient;
         // Making HTTP request

@@ -34,13 +34,9 @@ public class JsonHttpRequest {
     public JSONObject MarkApp_HttpRequest(String url, String method, List<NameValuePair> params) {
  
 	 DefaultHttpClient httpClient;
-        // Making HTTP request
+        // HTTP request:
         try {
- 
-            // check for request method
             if(method == "POST"){
-                // request method is POST
-                // defaultHttpClient
                 httpClient = new DefaultHttpClient();
                 HttpPost httpPost = new HttpPost(url);
                 httpPost.setEntity(new UrlEncodedFormEntity(params));
@@ -50,7 +46,6 @@ public class JsonHttpRequest {
                 input_stream = httpEntity.getContent();
  
             }else if(method == "GET"){
-                // request method is GET
                 httpClient = new DefaultHttpClient();
                 String paramString = URLEncodedUtils.format(params, "utf-8");
                 url += "?" + paramString;
@@ -83,14 +78,12 @@ public class JsonHttpRequest {
             Log.e("Buffer Error", "Error converting result " + e.toString());
         }
  
-        // try parse the string to a JSON object
         try {
             jObj = new JSONObject(json);
         } catch (JSONException e) {
             Log.e("JSON Parser", "Error parsing data " + e.toString());
         }
- 
-        // return JSON String
+       
         return jObj;
  
     }

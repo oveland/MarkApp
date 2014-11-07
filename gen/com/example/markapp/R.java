@@ -956,6 +956,8 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f080015;
         public static final int activity_vertical_margin=0x7f080016;
+        public static final int button_padding_top=0x7f08001b;
+        public static final int button_width=0x7f08001c;
         /**  The platform's desired fixed height for a dialog along the major axis
          (the screen is in portrait). This may be either a fraction or a dimension.
  The platform's desired fixed height for a dialog along the major axis
@@ -988,8 +990,11 @@ containing a value of this type.
          (the screen is in portrait). This may be either a fraction or a dimension.
          */
         public static final int dialog_fixed_width_minor=0x7f080012;
+        public static final int layout_login_padding=0x7f08001d;
+        public static final int title_padding_bottom=0x7f080019;
         public static final int txt_new_user=0x7f080017;
         public static final int txt_no_user=0x7f080018;
+        public static final int txt_register_padding_top=0x7f08001a;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;

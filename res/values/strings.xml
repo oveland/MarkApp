@@ -6,7 +6,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="Login">Iniciar sesión</string>
-    <string name="Register">Registrar nuevo</string>
+    <string name="Register">Registro MarkApp</string>
     <string name="input_name">Nombre</string>
     <string name="input_last_name">Apellido</string>
     <string name="input_nickname">Usuario</string>

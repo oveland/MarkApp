@@ -67,8 +67,9 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         
         nickname = (EditText) findViewById(R.id.txt_nickname);
         password = (EditText) findViewById(R.id.txt_paswword);
-        
-       
+        nickname.setText("");
+		password.setText("");
+		
         btn_login = (Button) findViewById(R.id.btn_login);
         btn_login.setOnClickListener(this);
         
@@ -101,7 +102,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	public void onClick(View v) {
 		// Para verificar datos de login:
 		if(v == btn_login){
-			if(nickname.toString() == null || password.toString() == null){
+			if(nickname.getHint() != "" && password.getHint() != ""){
 				Toast.makeText(MainActivity.this, "Campos incompletos", Toast.LENGTH_SHORT).show();
 			}
 			else{

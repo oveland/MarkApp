@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.markapp.MainActivity" 
     android:orientation="vertical"
-    android:padding="50dp"
+    android:padding="@dimen/layout_login_padding"
     >
 
      <TextView 
@@ -17,7 +17,7 @@
         android:text="@string/Login"
 		android:layout_gravity="center"
 		android:textSize="@dimen/txt_new_user"
-		android:layout_marginBottom="40dp"
+		android:layout_marginBottom="@dimen/title_padding_bottom"
 		/>
      
     <EditText
@@ -35,11 +35,11 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/btn_login"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/button_padding_top"
         />
     
     <TextView 
@@ -49,7 +49,7 @@
         android:text="@string/txt_no_user"
 		android:layout_gravity="center"
 		android:textSize="@dimen/txt_no_user"
-		android:layout_marginTop="50dp"
+		android:layout_marginTop="@dimen/txt_register_padding_top"
 		/>
     
     

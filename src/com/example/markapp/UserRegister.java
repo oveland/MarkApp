@@ -65,14 +65,17 @@ public class UserRegister extends ActionBarActivity implements OnClickListener {
 	
 	@Override
 	public void onClick(View v) {
-		params.add(new BasicNameValuePair("firstname", fname.getText().toString()));
-        params.add(new BasicNameValuePair("lastname", lname.getText().toString()));
-        params.add(new BasicNameValuePair("nickname", nkname.getText().toString()));
-        params.add(new BasicNameValuePair("password", pass.getText().toString()));
-        
-        
-       
-		new HTPPAsync().execute();
+		if(fname.getHint() != "" && lname.getHint()!= "" && nkname.getHint() != "" && pass.getHint() != ""){
+			Toast.makeText(this, "Campos incompletos!", Toast.LENGTH_SHORT).show();
+		}
+		else{
+			params.add(new BasicNameValuePair("firstname", fname.getText().toString()));
+	        params.add(new BasicNameValuePair("lastname", lname.getText().toString()));
+	        params.add(new BasicNameValuePair("nickname", nkname.getText().toString()));
+	        params.add(new BasicNameValuePair("password", pass.getText().toString()));
+	        new HTPPAsync().execute();
+		}
+		
 	}
 	
 	

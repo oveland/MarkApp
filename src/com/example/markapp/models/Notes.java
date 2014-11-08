@@ -1,17 +1,15 @@
 package com.example.markapp.models;
 
 public class Notes {
-	String note_name, note_content, note_duration, note_date;
+	String note_name, note_content, note_date;
 
 	public Notes() {
 	
 	}
 
-	public Notes(String note_name, String note_content, String note_duration,
-			String note_date) {
+	public Notes(String note_name, String note_content, String note_date) {
 		this.note_name = note_name;
 		this.note_content = note_content;
-		this.note_duration = note_duration;
 		this.note_date = note_date;
 	}
 
@@ -29,14 +27,6 @@ public class Notes {
 
 	public void setNote_content(String note_content) {
 		this.note_content = note_content;
-	}
-
-	public String getNote_duration() {
-		return note_duration;
-	}
-
-	public void setNote_duration(String note_duration) {
-		this.note_duration = note_duration;
 	}
 
 	public String getNote_date() {

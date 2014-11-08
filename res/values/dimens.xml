@@ -12,9 +12,20 @@
 	<dimen name="button_padding_top">40dp</dimen>
 	<dimen name="button_width">140dp</dimen>
 	
-	<dimen name="layout_login_padding">50dp</dimen>
+	<dimen name="layout_login_padding">50dp</dimen>	
+	<dimen name="txt_user_paddind">20dp</dimen>
+	
+	
+	<dimen name="note_name_size">25sp</dimen>
+	<dimen name="note_content_size">16sp</dimen>
+	<dimen name="note_date_size">10sp</dimen>
+	
+	<dimen name="note_padding">15dp</dimen>
+	
+	<dimen name="dialog_padding">20dp</dimen>
 	
 	
 	    
 </resources>
+
 

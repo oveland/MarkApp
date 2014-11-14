@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+    
+    <ImageView 
+        android:id="@+id/img_ok"
+        android:src="@drawable/ic_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon"        
+        />
+    <TextView
+	    android:id="@+id/btn_OK"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btn_ok" 
+	    android:paddingTop="10dp"
+	    android:paddingRight="5dp"
+	    android:layout_toRightOf="@id/img_ok"
+	    />
+      
+    <EditText 
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="@string/dialog_edit_title"
+        android:layout_toRightOf="@id/btn_OK"
+        />
+    
+    
+    <EditText 
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:hint="@string/dialog_edit_content"  
+        android:gravity="top" 
+        android:layout_below="@id/img_ok" 
+        />
+    
+    <Spinner
+        android:id="@+id/spinner_op"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/list_category"
+        android:padding="@dimen/spinner_padding"
+        android:soundEffectsEnabled="true"
+        android:layout_alignParentBottom="true"
+        />
+    
+
+</RelativeLayout>

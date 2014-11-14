@@ -87,7 +87,7 @@ public void setResponse(String rta) {
 		msg_toast = json_rta.getString(Constant.MESSAGE);
 		Toast.makeText(UserRegister.this, msg_toast, Toast.LENGTH_LONG ).show();
 		
-		if(success == 1){   			
+		if(success == Constant.TASK_OK){   			
 	        	MainActivity.nickname.setText("");
 	        	MainActivity.password.setText("");
 	        		

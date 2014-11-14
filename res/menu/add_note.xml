@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu 
-    xmlns:android="http://schemas.android.com/apk/res/android" 
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+   xmlns:app="http://schemas.android.com/apk/res-auto"
     >
     
     <item 
@@ -17,7 +16,7 @@
         android:title="@string/action_more"
         android:icon="@drawable/ic_action_overflow"
         android:orderInCategory="100"
-        app:showAsAction="always"        
+        app:showAsAction="always"
         >
         <menu >
             <item 
@@ -33,5 +32,8 @@
         
         
     </item>
+    
+    
+    
 
 </menu>

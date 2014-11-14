@@ -17,40 +17,29 @@
     <string name="txt_no_user">Registrarse en MarkApp</string>
     <string name="btn_register_new">Crear una</string>
     
-    <string-array name="title_note">
-	    <item>Futbol</item>
-	    <item>Parcial</item>
-	    <item>Xbox</item>
-	    <item>Cocina</item>
-	    <item>Receta</item>
-	    <item>PC</item>
-	</string-array>
-	<string-array name="content_notes">
-	    <item >El viernes juega Colombia contra España</item>
-	    <item >El Lunes parcial de Radio</item>
-	    <item >Los sims 4 se lanzan en Septiembre</item>
-	    <item >El viernes juega Colombia contra España</item>
-	    <item >El Lunes parcial de Radio</item>
-	    <item >Los sims 4 se lanzan en Septiembre</item>
-	</string-array>
-	<string-array name="date_notes">
-	    <item >08/11/2014</item>
-	    <item >06/08/2014</item>
-	    <item >03/05/2014</item>
-	    <item >08/01/2014</item>
-	    <item >06/01/2014</item>
-	    <item >03/03/2014</item>
+    <string-array name="list_category">
+	    <item >Sin Categoría</item>	  
+	    <item >Escuela</item>
+	    <item >Persona</item>
+	    <item >Trabajo</item>
+	    <item >Familia</item>	      
 	</string-array>
 	
 	
-	<string name="action_add">Agregar Pelicula</string>
+	<string name="action_add">Agregar Nota</string>
 	<string name="action_more">Mas</string>
 	<string name="action_info">Información</string>
 	<string name="action_about">Acerca De</string>
 	<string name="action_edit">Editar</string>
 	<string name="action_delete">Eliminar</string>
-	<string name="dialog_edit_title">Tutulo</string>
-	<string name="dialog_edit_content">Contenido</string>
+	
+	<string name="dialog_edit_title">Título</string>
+	<string name="dialog_edit_content">Escriba el contenido</string>
 	<string name="dialog_edit_date">Fecha</string>
+	
+	<string name="btn_ok">Listo</string>
+	<string name="icon">Icono</string>
+	<string name="txt_category">Categoria: </string>
+	
     
 </resources>

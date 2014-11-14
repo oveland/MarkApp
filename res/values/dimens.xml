@@ -12,7 +12,8 @@
 	<dimen name="button_padding_top">40dp</dimen>
 	<dimen name="button_width">140dp</dimen>
 	
-	<dimen name="layout_login_padding">50dp</dimen>	
+	<dimen name="layout_login_padding">50dp</dimen>
+	<dimen name="layout_admin_padding">5dp</dimen>		
 	<dimen name="txt_user_paddind">20dp</dimen>
 	
 	
@@ -23,6 +24,8 @@
 	<dimen name="note_padding">15dp</dimen>
 	
 	<dimen name="dialog_padding">20dp</dimen>
+	<dimen name="spinner_padding">5dp</dimen>
+	
 	
 	
 	    

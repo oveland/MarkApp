@@ -17,29 +17,4 @@
     <string name="txt_no_user">Registrarse en MarkApp</string>
     <string name="btn_register_new">Crear una</string>
     
-    <string-array name="list_category">
-	    <item >Sin Categoría</item>	  
-	    <item >Escuela</item>
-	    <item >Persona</item>
-	    <item >Trabajo</item>
-	    <item >Familia</item>	      
-	</string-array>
-	
-	
-	<string name="action_add">Agregar Nota</string>
-	<string name="action_more">Mas</string>
-	<string name="action_info">Información</string>
-	<string name="action_about">Acerca De</string>
-	<string name="action_edit">Editar</string>
-	<string name="action_delete">Eliminar</string>
-	
-	<string name="dialog_edit_title">Título</string>
-	<string name="dialog_edit_content">Escriba el contenido</string>
-	<string name="dialog_edit_date">Fecha</string>
-	
-	<string name="btn_ok">Listo</string>
-	<string name="icon">Icono</string>
-	<string name="txt_category">Categoria: </string>
-	
-    
 </resources>

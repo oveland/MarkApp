@@ -11,6 +11,29 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+    
+    <permission
+        android:name="com.example.markapp.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"
+        />
+    
+    <uses-permission 
+        android:name="com.example.markapp.permission.MAPS_RECEIVE"
+        />
+    
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"
+        />
+    
+    <uses-permission android:name="com.example.markapp.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
 
     <application
         android:allowBackup="true"
@@ -18,7 +41,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.markapp.MainActivity"
+            android:name="com.example.markapp.SplashScreenActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +50,17 @@
             </intent-filter>
         </activity>
         <activity 
+            android:name="com.example.markapp.MainActivity"
+            />
+        
+        <activity 
             android:name="com.example.markapp.UserRegister"
             />
         <activity android:name="com.example.markapp.UserMenu"
             />
-        <activity android:name="com.example.markapp.AdminNote"
+        <meta-data 
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAQRnQ3IMXWyRcl7-eVNZf5VhpI_x56fUc"
             />
         
     </application>

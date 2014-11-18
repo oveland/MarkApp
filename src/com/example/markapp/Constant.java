@@ -42,22 +42,22 @@ public class Constant {
 	
 	// Direccines URL para cada tarea:
 		//Locales
-		/*
+		
 		public static final String URL_REGISTER = "http://10.0.2.2/MarkApp/db_register.php";
 		public static final String URL_LOGIN = "http://10.0.2.2/MarkApp/db_login.php";
 		public static final String URL_ALL_NOTES = "http://10.0.2.2/MarkApp/db_all_notes.php";
 		public static final String URL_SET_NOTE = "http://10.0.2.2/MarkApp/db_set_note.php";
 		public static final String URL_EDIT_NOTE = "http://10.0.2.2/MarkApp/db_edit_note.php";
 		public static final String URL_DEL_NOTE = "http://10.0.2.2/MarkApp/db_del_note.php";
-		*/
-		//En la nube
 		
+		//En la nube
+		/*
 		public static final String URL_REGISTER = "http://markapp.esy.es/MarkApp/db_register.php";		
 		public static final String URL_LOGIN = "http://markapp.esy.es/MarkApp/db_login.php";		
 		public static final String URL_ALL_NOTES = "http://markapp.esy.es/MarkApp/db_all_notes.php";		
 		public static final String URL_SET_NOTE = "http://markapp.esy.es/MarkApp/db_set_note.php";		
 		public static final String URL_EDIT_NOTE = "http://markapp.esy.es/MarkApp/db_edit_note.php";		
 		public static final String URL_DEL_NOTE = "http://markapp.esy.es/MarkApp/db_del_note.php";
-		
+		*/
 }
 

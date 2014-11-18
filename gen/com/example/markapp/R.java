@@ -1501,8 +1501,7 @@ containing a value of this type.
         public static final int personal=0x7f020089;
         public static final int powered_by_google_dark=0x7f02008a;
         public static final int powered_by_google_light=0x7f02008b;
-        public static final int splash=0x7f02008c;
-        public static final int trabajo=0x7f02008d;
+        public static final int trabajo=0x7f02008c;
     }
     public static final class id {
         public static final int action_about=0x7f080076;
@@ -1679,15 +1678,14 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int activity_splashscreen=0x7f030019;
-        public static final int admin_note=0x7f03001a;
-        public static final int dialog_edit_note=0x7f03001b;
-        public static final int item_list=0x7f03001c;
-        public static final int note_description=0x7f03001d;
-        public static final int spinner_row=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
-        public static final int user_menu=0x7f030020;
-        public static final int user_register=0x7f030021;
+        public static final int admin_note=0x7f030019;
+        public static final int dialog_edit_note=0x7f03001a;
+        public static final int item_list=0x7f03001b;
+        public static final int note_description=0x7f03001c;
+        public static final int spinner_row=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int user_menu=0x7f03001f;
+        public static final int user_register=0x7f030020;
     }
     public static final class menu {
         public static final int add_note=0x7f0d0000;

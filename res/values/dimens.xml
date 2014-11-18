@@ -6,6 +6,7 @@
 
     <dimen name="txt_new_user">25sp</dimen>
     <dimen name="txt_no_user">17sp</dimen>
+    <dimen name="txt_general">18sp</dimen>	
     
     <dimen name="title_padding_bottom">40dp</dimen>
     <dimen name="txt_register_padding_top">50dp</dimen>
@@ -13,8 +14,26 @@
 	<dimen name="button_width">140dp</dimen>
 	
 	<dimen name="layout_login_padding">50dp</dimen>
+	<dimen name="layout_admin_padding">5dp</dimen>		
+	<dimen name="txt_user_paddind">20dp</dimen>
+	
+	
+	<dimen name="note_name_size">25sp</dimen>
+	<dimen name="note_content_size">16sp</dimen>
+	<dimen name="note_date_size">10sp</dimen>
+	
+	<dimen name="note_padding">15dp</dimen>
+	
+	<dimen name="dialog_padding">20dp</dimen>
+	<dimen name="spinner_padding">5dp</dimen>
+	
+	<dimen name="Rec_btns_padding">30dp</dimen>
+	
+	<dimen name="btns_rec">10dp</dimen>
+		
 	
 	
 	    
 </resources>
+
 

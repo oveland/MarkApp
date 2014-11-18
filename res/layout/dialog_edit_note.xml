@@ -14,15 +14,4 @@
         android:inputType="textMultiLine"
         android:hint="@string/dialog_edit_title"
         />
-    <EditText 
-        android:id="@+id/edit_content"
-        android:layout_marginTop="@dimen/dialog_padding"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:inputType="textMultiLine"
-        android:hint="@string/dialog_edit_content"  
-        android:gravity="top"   
-        />
-    
-
 </LinearLayout>

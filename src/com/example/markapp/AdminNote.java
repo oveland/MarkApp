@@ -13,7 +13,10 @@ import org.json.JSONObject;
 
 import com.example.markapp.adapters.SpinnerAdapter;
 import com.example.markapp.net.HttpAsyncTask;
+<<<<<<< HEAD
 
+=======
+>>>>>>> f85f554eefc28981bf8e3ce2407bcaf3381ce0b3
 import com.example.markapp.net.HttpAsyncTask.HttpAsyncInterface;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Built application files
 *.apk
 <<<<<<< HEAD
@@ -29,9 +30,15 @@ proguard/
 # Log Files
 *.log
 =======
+=======
+>>>>>>> f85f554eefc28981bf8e3ce2407bcaf3381ce0b3
 *.class
 
 *.txt
 bin/
+<<<<<<< HEAD
+gen/
+>>>>>>> f85f554eefc28981bf8e3ce2407bcaf3381ce0b3
+=======
 gen/
 >>>>>>> f85f554eefc28981bf8e3ce2407bcaf3381ce0b3

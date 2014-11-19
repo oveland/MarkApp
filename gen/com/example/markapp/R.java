@@ -1522,6 +1522,7 @@ containing a value of this type.
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
         public static final int action_more=0x7f080074;
+        public static final int action_settings=0x7f080079;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1685,13 +1686,15 @@ containing a value of this type.
         public static final int item_list=0x7f03001c;
         public static final int note_description=0x7f03001d;
         public static final int spinner_row=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
-        public static final int user_menu=0x7f030020;
-        public static final int user_register=0x7f030021;
+        public static final int splash_screen=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int user_menu=0x7f030021;
+        public static final int user_register=0x7f030022;
     }
     public static final class menu {
         public static final int add_note=0x7f0d0000;
         public static final int admin_note=0x7f0d0001;
+        public static final int main=0x7f0d0002;
     }
     public static final class string {
         public static final int Login=0x7f060033;

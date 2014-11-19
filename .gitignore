@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Built application files
 *.apk
+<<<<<<< HEAD
+*.ap_ 
+=======
 *.ap_
+>>>>>>> 70bbf86cd173f5d656f35614bc71925bab35dd8f
 
 # Java class files  
 *.class
@@ -23,3 +28,10 @@ proguard/
 
 # Log Files
 *.log
+=======
+*.class
+
+*.txt
+bin/
+gen/
+>>>>>>> f85f554eefc28981bf8e3ce2407bcaf3381ce0b3
